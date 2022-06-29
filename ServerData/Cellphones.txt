@@ -1,0 +1,8 @@
+Sam,079 432 5456,catie.png
+jenna bells,082 545 6757,EmProfile.jpg
+Bob,072 546 7755,profile1.jpeg
+maggie,067 654 5656,profile2.png
+jakie,082 457 7678,null
+Closure Test,078 434 6563,noImage.jpg
+Hose,056 643 6567,null
+gates,087 654 7654,ProfileBadass.png

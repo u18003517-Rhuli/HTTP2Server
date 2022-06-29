@@ -1,0 +1,273 @@
+<!Doctype html>
+
+<html lang='en' dir='ltr'>
+
+	<head>
+
+		<meta charset ='utf-8'>
+
+		<title> Calcalate My Existance </title>
+
+		<style>
+
+			body{
+
+				background-color: #a9bd7e;
+
+			}
+
+			table{
+
+				margin: auto;
+
+				background-color: grey;
+
+				width: 300px;
+
+				width: 65%;
+
+				text-align: center;
+
+				border-radius: 4px;
+
+				margin-top:125px;
+
+			}
+
+			table input{
+				width: 15%;
+
+				height: 40%;
+
+			}
+
+			table input:hover{
+
+				width: 15%;
+
+				height: 40%;
+
+			}
+
+			#calculator{
+
+				position: absolute;
+
+				max-width: 80%;
+
+				left: 58%;
+
+				top: 10%;
+
+			}
+
+			input{
+
+				outline: 0;
+
+				position: relative;
+
+				left: 5px;
+
+				top: 5px;
+
+				border: 0;
+
+				color: #495069;
+
+				//background-color: #658696;
+
+				width: 20%;
+
+				height: 15%;
+
+				float: left;
+
+				margin: 5px;
+
+				font-size: 20px;
+
+				box-shadow: 0 4px rgba(0,0,0,0.2);
+
+			}
+
+			input:hover{
+
+				border: 0 solid #000;
+
+				color: #495069;
+
+				background-color: #8f5fda;
+
+				border-radius: 4px;
+
+				width: 20%;
+
+				height: 15%;
+
+				float: left;
+
+				margin: 5px;
+
+				font-size: 20px;
+
+				box-shadow: 0 4px #644294;
+
+			}
+
+			#Answer{
+
+				width: 90%;
+
+				font-size: 16px;
+
+			}
+
+			#Values{
+
+				width: 90%;
+
+				font-size: 16px;
+
+			}
+
+			#answer{
+
+				width: 270px;
+
+				font-size: 26px;
+
+				text-align: center;
+
+				background-color: #f1faeb;
+
+				float: left;
+
+			}
+
+			#answer:hover{
+
+				width: 270px;
+
+				font-size: 26px;
+
+				text-align: center;
+
+				box-shadow: 0 4px rgba(0,0,0,0.2);
+
+				background-color: #f1faeb;
+
+			}
+
+			.operator{
+
+				background-color: #f1ff92;
+
+				position: relative;
+
+}
+
+			.operator:hover{
+
+				background-color: #e7f56b;
+
+				box-shadow: 0 4px #b7c259;
+
+			}
+
+			#clear{
+
+				float: left;
+
+				position: relative;
+
+				display: block;
+
+				background-color: #ff9fa8;
+
+				margin-bottom: 15px;
+
+			}
+
+			#clear:hover{
+
+				float: left;
+
+				display: block;
+
+				background-color: #f297a0;
+
+				margin-bottom: 15px;
+
+				box-shadow: 0 4px #cc7f86;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h2> Picture </h2>
+
+		<form action='ShowNumbers.py' method='get'>
+
+			<input type='submit' value='Show Numbers' >
+
+		</form>
+
+		<form action='AddNumbers.py' method='get'>
+
+			<input type='submit' value='Add Numbers' >
+
+		</form>
+
+		<form action='DeleteNumbers.py' method='get'>
+
+			<input type='submit' value='Delete Numbers' >
+
+		</form>
+
+		<form action='UpdateNumbers.py' method='get'>
+
+			<input type='submit' value='Update Numbers' >
+
+		</form>
+
+		<form action='LookNumbers.py' method='get'>
+
+			<input type='submit' value='Search Numbers' >
+
+		</form>
+
+		<form>
+
+			<table>
+
+				<tr>
+
+					<td>
+
+						<input type='text' id ='Answer' disabled=true value ='' >
+
+					</td>
+
+				</tr>
+
+			</table>
+
+		</form>
+
+		<form action='index.py' method='post' enctype='multipart/form-data'>
+
+			<input type='text' id='calValue' hidden name='calValue' >
+
+			<input type='submit' value='Home' >
+
+		</form>
+
+	</body>
+
+</html>
+
